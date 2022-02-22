@@ -23,7 +23,11 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
+<<<<<<< HEAD
   <defaultListForm>Document.ПоступлениеТоваров.Form.ФормаСписка</defaultListForm>
+=======
+  <defaultObjectForm>Document.ПоступлениеТоваров.Form.ФормаДокумента</defaultObjectForm>
+>>>>>>> stash
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="536705f5-efc6-4995-80ab-b44b6b2a1d8d">
@@ -41,6 +45,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+<<<<<<< HEAD
   <attributes uuid="4b82dd59-0c76-4a26-a781-2c5b06cddf9a">
     <name>СуммаДокумента</name>
     <synonym>
@@ -61,6 +66,13 @@
     <synonym>
       <key>ru</key>
       <value>Форма списка</value>
+=======
+  <forms uuid="f5ec05ba-d593-4d8c-9569-fd261d5c5213">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+>>>>>>> stash
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
