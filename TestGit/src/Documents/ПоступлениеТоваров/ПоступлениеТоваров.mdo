@@ -55,15 +55,6 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <forms uuid="a96a952b-5865-43b5-90a8-4b368ece455d">
-    <name>ФормаДокумента</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма документа</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
   <tabularSections uuid="91197459-ec64-41ad-b1fc-9e581bb49ec2">
     <producedTypes>
       <objectType typeId="43b08308-61f8-427e-999d-546cd38edeb2" valueTypeId="e66011b0-9d80-46e2-b727-a2e9a7c994db"/>
