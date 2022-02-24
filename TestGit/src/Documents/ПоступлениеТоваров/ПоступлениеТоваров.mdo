@@ -23,9 +23,7 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
-  <postInPrivilegedMode>true</postInPrivilegedMode>
-  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
-  <attributes uuid="536705f5-efc6-4995-80ab-b44b6b2a1d8d">
+  <attributes uuid="3691b73d-bbb9-49b1-aa73-a48a59cf5715">
     <name>Организация</name>
     <synonym>
       <key>ru</key>
@@ -40,17 +38,32 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <tabularSections uuid="91197459-ec64-41ad-b1fc-9e581bb49ec2">
+  <attributes uuid="1e3bb36f-b689-404a-aa79-4cfe1015b9ad">
+    <name>СуммаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма документа</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Сумма</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="7e567984-16b1-4cff-a405-8275cd893de1">
     <producedTypes>
-      <objectType typeId="cdf1845a-164b-47d5-be2f-36ae4b1ff98d" valueTypeId="9fa92257-88bf-48a5-a3c7-ab6c455d24bc"/>
-      <rowType typeId="db4a8e72-0f0e-40e2-af1e-c710c55b1d2a" valueTypeId="f9cb473e-a68e-4a64-adb8-9c90e22b45c6"/>
+      <objectType typeId="43b08308-61f8-427e-999d-546cd38edeb2" valueTypeId="e66011b0-9d80-46e2-b727-a2e9a7c994db"/>
+      <rowType typeId="24f1ca80-9f8f-4e45-ac07-b16ef37beb7b" valueTypeId="e976541d-1de4-45bf-aced-c300eba620e0"/>
     </producedTypes>
     <name>Товар</name>
     <synonym>
       <key>ru</key>
       <value>Товар</value>
     </synonym>
-    <attributes uuid="d4d0be0a-a361-4aca-8b34-eb452ea03b98">
+    <attributes uuid="82d72d9d-4e74-4c33-9487-d80f47ecc221">
       <name>Номенклатура</name>
       <synonym>
         <key>ru</key>
@@ -64,7 +77,7 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="cf54c752-ec00-4965-9a76-52d444ff080a">
+    <attributes uuid="a516cf36-282c-4868-a565-cade598a4f97">
       <name>Количество</name>
       <synonym>
         <key>ru</key>
@@ -82,7 +95,7 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="268a542e-f46a-4eda-9af7-05332ef58f44">
+    <attributes uuid="a950ee22-a0b1-44f7-840e-ee5e9c578aca">
       <name>Цена</name>
       <synonym>
         <key>ru</key>
@@ -96,7 +109,7 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="d2229fff-5f70-4b4f-8013-69804395be53">
+    <attributes uuid="864a74fe-68d9-4786-baf1-7977dee4ca8a">
       <name>Сумма</name>
       <synonym>
         <key>ru</key>
